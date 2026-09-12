@@ -1,0 +1,111 @@
+{
+  "source": "fixture.pdf",
+  "source_sha256": "e6e1c3ce41119f4a3955aefa8ec6c8233a3a7a14beecd400f6961d9e77018a4d",
+  "pages": [
+    {
+      "page": 1,
+      "image_entries": 2,
+      "masks": 1
+    },
+    {
+      "page": 2,
+      "image_entries": 1,
+      "masks": 0
+    },
+    {
+      "page": 3,
+      "image_entries": 0,
+      "masks": 0
+    }
+  ],
+  "images": [
+    {
+      "page": 1,
+      "number": 0,
+      "kind": "image",
+      "width": 320,
+      "height": 160,
+      "color": "rgb",
+      "encoding": "jpeg",
+      "object_id": 3,
+      "generation": 0,
+      "files": [
+        {
+          "name": "page-0001-image-0000-image.jpg",
+          "sha256": "10b11a60d1f3f74c0301afcba97f8f9573b488ac0ff986d3ed1fb73910a65ed1",
+          "bytes": 3256
+        }
+      ],
+      "pdf_colorspace": "/DeviceRGB",
+      "icc_sidecar": null,
+      "review_required": false
+    },
+    {
+      "page": 1,
+      "number": 1,
+      "kind": "image",
+      "width": 120,
+      "height": 120,
+      "color": "rgb",
+      "encoding": "image",
+      "object_id": 4,
+      "generation": 0,
+      "files": [
+        {
+          "name": "page-0001-image-0001-image.png",
+          "sha256": "beddfe39df2564b5fcf83d1287ab092546a7046604a9dce166195db7e7a59b61",
+          "bytes": 530
+        }
+      ],
+      "pdf_colorspace": "/DeviceRGB",
+      "icc_sidecar": null,
+      "review_required": false
+    },
+    {
+      "page": 1,
+      "number": 2,
+      "kind": "smask",
+      "width": 120,
+      "height": 120,
+      "color": "gray",
+      "encoding": "image",
+      "object_id": 4,
+      "generation": 0,
+      "files": [
+        {
+          "name": "page-0001-image-0002-smask.png",
+          "sha256": "7dc5114c68e22f05355b070bf1ee5e7a07c5c0936f0699e4d6cde666df8389c6",
+          "bytes": 391
+        }
+      ],
+      "pdf_colorspace": "/DeviceGray",
+      "icc_sidecar": null,
+      "review_required": true
+    },
+    {
+      "page": 2,
+      "number": 3,
+      "kind": "image",
+      "width": 320,
+      "height": 160,
+      "color": "rgb",
+      "encoding": "jpeg",
+      "object_id": 3,
+      "generation": 0,
+      "files": [
+        {
+          "name": "page-0002-image-0003-image.jpg",
+          "sha256": "10b11a60d1f3f74c0301afcba97f8f9573b488ac0ff986d3ed1fb73910a65ed1",
+          "bytes": 3256
+        }
+      ],
+      "pdf_colorspace": "/DeviceRGB",
+      "icc_sidecar": null,
+      "review_required": false
+    }
+  ],
+  "image_entries": 3,
+  "unique_image_objects": 2,
+  "review_required": true,
+  "note": "Entries follow Poppler listing, not every repeated drawing on a page. Masks are separate. ICC sidecars preserve source profiles; automatic color fidelity is not certified."
+}
